@@ -2,7 +2,7 @@ from groq import Groq
 def give_commands(a):
 
     client = Groq(
-        api_key=r'Paste your API Key',
+        api_key=r'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',
             )
 
     chat_completion = client.chat.completions.create(
