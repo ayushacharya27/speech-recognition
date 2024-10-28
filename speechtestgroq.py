@@ -9,7 +9,7 @@ def main():
         text = Speech()
         
          
-        if text.lower() == 'stop':
+        if text  == 'stop':
             print("Ending the conversation.")
             break
 
